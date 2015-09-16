@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+'''
+this script will move mouse cursor to center of window when active window changes.
+'''
+
 # for alternative see: https://pypi.python.org/pypi/PyAutoGUI
 
 # -------------------------------------------------------------------------------------- #
