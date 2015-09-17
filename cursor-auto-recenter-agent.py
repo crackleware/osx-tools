@@ -62,7 +62,8 @@ else:
                                                  kCGNullWindowID)
             activeWin = None
             for win in winList:
-                if win['kCGWindowOwnerName'] == app['NSApplicationName'] and \
+                # print 'win:', win
+                if win['kCGWindowOwnerPID'] == pid and \
                    win['kCGWindowAlpha'] != 0 and win['kCGWindowLayer'] == 0:
                     print win
                     activeWin = win
